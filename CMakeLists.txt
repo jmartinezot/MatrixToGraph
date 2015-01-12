@@ -11,6 +11,6 @@ link_directories(/usr/lib)
 
 add_executable (MatrixToGraph src/MatrixToGraph.cpp src/Utils.cpp)
  
-#target_link_libraries() 
+target_link_libraries(MatrixToGraph boost_program_options) 
 
 
