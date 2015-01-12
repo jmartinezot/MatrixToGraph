@@ -1,9 +1,9 @@
 MatrixToGraph
 =============
 
-The utility MatrixToGraph creates a graph from an adjacency matrix with weights associated.
+The utility **MatrixToGraph** creates a graph from an adjacency matrix with associated weights.
 
-Maybe you need to install cmake, boost and/or gnuplot. If so, type
+Maybe you need to install *cmake*, *boost* and/or *gnuplot*. If so, type
 
 **sudo apt-get install cmake libboost-all-dev gnuplot**
 
@@ -16,7 +16,7 @@ The usage is
 
 **./MatrixToGraph --CSV_filename=filename.csv --Graphviz_filename=filename.graph**
 
-Once the file **filename.graph** has been generated, several graph types can been created.
+Once the file **filename.graph** has been generated, several graph types can be created.
 
 - *Dot graph*: **dot -Tpdf filename.graph -o filename.pdf**
 - *Circo graph*: **circo -Tpdf filename.graph -o filename.pdf**
